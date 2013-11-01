@@ -8,5 +8,5 @@ ADD run.sh /usr/local/bin/run
 RUN chmod +x /usr/local/bin/run
 RUN rm -rf /tmp/*
 
-EXPOSE 80:8880
+EXPOSE 8880:80
 CMD ["/usr/local/bin/run"]
