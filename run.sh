@@ -1,6 +1,6 @@
 #!/bin/bash
 ES_HOST=${ES_HOST:-window.location.hostname}
-ES_PORT=${ES_PORT:-9200}
+ES_PORT=${ES_PORT:-59200}
 
 cat << EOF > /usr/share/nginx/www/config.js
 var config = new Settings(
