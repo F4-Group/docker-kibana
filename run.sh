@@ -2,7 +2,7 @@
 ES_HOST=${ES_HOST:-window.location.hostname}
 ES_PORT=${ES_PORT:-9200}
 
-CONFIG_FILE="/usr/share/nginx/www"
+CONFIG_FILE="/usr/share/nginx/www/config.js"
 
 function config_replace() {
     CMD="s/{{$1}}/$2/g"
