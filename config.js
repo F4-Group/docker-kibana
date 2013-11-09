@@ -18,7 +18,7 @@ function (Settings) {
      * elasticsearch host
      * @type {String}
      */
-    elasticsearch: "http://"+{{ES_HOST}}+":{{ES_PORT}}",
+    elasticsearch: "http://{{ES_HOST}}:{{ES_PORT}}",
 
     /**
      * The default ES index to use for storing Kibana specific object
