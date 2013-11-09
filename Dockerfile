@@ -9,7 +9,7 @@ RUN (cd /tmp && wget --no-check-certificate http://download.elasticsearch.org/ki
 RUN echo "daemon off;" >> /etc/nginx/nginx.conf
 
 ADD run.sh /usr/local/bin/run
-ADD config.js /usr/share/nginx/www
+ADD config.js /usr/share/nginx/www/config.js
 RUN chmod +x /usr/local/bin/run
 
 RUN rm -rf /tmp/*
