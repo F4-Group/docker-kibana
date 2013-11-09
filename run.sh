@@ -12,4 +12,6 @@ function config_replace() {
 config_replace "ES_HOST" "$ES_HOST"
 config_replace "ES_PORT" "$ES_PORT"
 
+cp /usr/share/nginx/www/logstash.json /usr/share/nginx/www/default.json
+
 nginx -c /etc/nginx/nginx.conf
