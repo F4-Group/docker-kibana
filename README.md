@@ -1,6 +1,6 @@
 # Kibana
 
-Kibana 3 milestone 2
+Uses latest Kibana (at moment of build)
 
 Uses nginx to front the new Kibana
 
